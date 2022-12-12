@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -12,4 +14,124 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+
+.navbar .list  {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.75px;
+  line-height: 30px;
+}
+
+.background-image {
+    background-image: url("/images/backimage.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 90%;
+    color: #fff;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 141px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.get-list {
+  font-family: ITC Avant Garde Gothic Std;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.sub-container {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sub-container p {
+ height: 137px;
+ width: 428px;
+ left: 1072px;
+ top: 1297px;
+ border-radius: nullpx;
+ font-weight: 300;
+ font-size: 18px;
+ margin-left: 30px;
+ margin-top: 60px;
+}
+
+.sub-container h2 {
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 110px; */
+  margin-right: 15px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-section {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  display: flex;
+}
+
+.heading h2 {
+  font-size: 110px;
+}
+
+.mini {
+  border: 2px solid red;
+}
+
+.mini h3 {
+  color: #EC2232;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.section2 {
+  background-image: url("/images/Rectangle\ 418.png");
+}
+
+.sub-section-2 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.center-image {
+  border: 2px solid red;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.image-size {
+  width: 90%;
+  height:80%;
+  margin-top: 100px;
+}
+
+.center-image p {
+  font-size:  ITC Avant Garde Gothic Std;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 20px;
 }
