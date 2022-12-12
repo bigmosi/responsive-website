@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding-top: 0;
+  }
+  
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
