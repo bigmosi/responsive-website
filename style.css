@@ -1,25 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-
-  }
-
-  body {
-    padding-top: 0;
-    font-family: 'ITC Avant Garde Gothic Std';
-  }
-
-.navbar .list1 {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.navbar .list  {
+body {
+  padding-top: 0;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+}
+
+.navbar .list1 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar .list {
   font-style: normal;
   font-weight: 700;
   font-size: 28.75px;
@@ -27,25 +26,26 @@
 }
 
 .background-image {
-    background-image: url("/images/backimage.png");
-    background-repeat: no-repeat;
-    /*height: 500px;*/
-    width: 90%;
-    color: #fff;
-    font-family: 'ITC Avant Garde Gothic Std';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 141px;
+  background-image: url("/images/backimage.png");
+  background-repeat: no-repeat;
+
+  /* height: 500px; */
+  width: 90%;
+  color: #fff;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 141px;
 }
 
 .title {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .get-list {
-  font-family: ITC Avant Garde Gothic Std;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
@@ -61,26 +61,31 @@
 }
 
 .sub-container h1 {
-  color: #222222;
+  color: #222;
   font-weight: 500;
   font-size: 40px;
 }
 
 .sub-container p {
- height: 137px;
- width: 428px;
- left: 1072px;
- top: 1297px;
- border-radius: nullpx;
- font-weight: 300;
- font-size: 18px;
- margin-top: 60px;
+  height: 137px;
+  width: 428px;
+  left: 1072px;
+  top: 1297px;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 65px;
 }
 
 .sub-container h2 {
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 500;
+
   /* font-size: 110px; */
   margin-right: 15px;
 }
@@ -105,8 +110,8 @@
 }
 
 .mini h3 {
-  color: #EC2232;
-  font-family: 'ITC Avant Garde Gothic Std';
+  color: #ec2232;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -125,14 +130,15 @@
 }
 
 .sub-title {
-position: relative;
-/*left: 15%;*/
-margin-top: 50px;
-margin-bottom: 50px;
-font-size: 70px;
-color: #222222;
-    width: 60%;
-    text-align: center;
+  position: relative;
+
+  /* left: 15%; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 70px;
+  color: #222;
+  width: 60%;
+  text-align: center;
 }
 
 .center-image {
@@ -140,11 +146,10 @@ color: #222222;
   width: 70%;
   justify-content: space-around;
   overflow-y: hidden;
-
 }
 
 .center-image p {
-  font-family:  ITC Avant Garde Gothic Std;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-weight: 500;
   font-size: 30px;
   margin-top: 50px;
@@ -154,7 +159,8 @@ color: #222222;
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  /*flex-direction: column;*/
+
+  /* flex-direction: column; */
   margin-bottom: 20px;
 }
 
@@ -162,22 +168,27 @@ color: #222222;
   position: relative;
   top: 0;
   left: 0;
-  border: 1px solid #000000;
+  border: 1px solid #000;
 }
 
 .image2 {
   position: absolute;
   top: 30px;
   left: 30px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
+}
+
+.main-form {
+  max-width: 450px;
+  margin: auto;
 }
 
 .form {
   height: 990px;
-width: 50%;
-left: 0px;
-border-radius: 0px;
-background: #0E3466;
+  width: 50%;
+  left: 0;
+  border-radius: 0;
+  background: #0e3466;
 }
 
 .textInput {
@@ -196,19 +207,18 @@ background: #0E3466;
 } */
 
 .submit-button {
-  font-family: ITC Avant Garde Gothic Std;
-font-size: 20px;
-font-weight: 600;
-line-height: 25px;
-letter-spacing: -0.02em;
-text-align: left;
-width: 204px;
-height: 5rem;
-text-align: center;
-background: #EC2232;
-border-radius: 40.2445px;
-color: #fff;
-border: none;
+  font-family: ITC Avant Garde Gothic Std, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  width: 204px;
+  height: 5rem;
+  text-align: center;
+  background: #ec2232;
+  border-radius: 40.2445px;
+  color: #fff;
+  border: none;
 }
 
 .input-icons i {
@@ -233,11 +243,6 @@ border: none;
   text-align: center;
   border-radius: 7.75px;
   height: 68px;
-}
-
-h2 {
-  color: #fff;
-  font-size: 65px;
 }
 
 .icons {
@@ -288,17 +293,13 @@ h2 {
 }
 
 .sub-sect {
-  margin-top: 0px;
+  margin-top: 0;
   position: relative;
   top: 10%;
   border-bottom: 2px solid #c4c4c4;
   width: 80%;
   margin-left: 15px;
   overflow-y: hidden;
-}
-
-.sub-sect h3 {
-  color: #192437;
 }
 
 .sub-sect2 h3 {
@@ -315,11 +316,11 @@ h2 {
 }
 
 .sub-sect h3 {
-font-family: AvertaStd-Regular;
-font-size: 18px;
-line-height: 18px;
-letter-spacing: 0.03em;
-text-align: left;
+  font-family: AvertaStd-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .sub-sect2 {
@@ -327,7 +328,6 @@ text-align: left;
   border-bottom: 2px solid #c4c4c4;
   margin-left: 15px;
   width: 80%;
-
 }
 
 .sub-sect2 p {
@@ -373,16 +373,17 @@ text-align: left;
   margin-top: 25px;
   font-weight: 500;
   font-size: 35px;
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
 }
 
 .industry-container {
   color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
-  /*margin-top: 20px;*/
+
+  /* margin-top: 20px; */
   gap: 15px;
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
@@ -398,7 +399,7 @@ text-align: left;
   color: #fff;
   font-weight: 500;
   font-size: 35px;
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
 }
 
 .social__icons--link {
@@ -416,7 +417,7 @@ text-align: left;
 
 .reserved-right p {
   margin-top: 10px;
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
@@ -439,17 +440,18 @@ text-align: left;
 
 .industry-sub p {
   margin-left: 10px;
-font-size: 18px;
+  font-size: 18px;
   margin-top: 10px;
 }
 
 .industry-sub h4 {
-  color: #222222;
-  font-family: 'ITC Avant Garde Gothic Std';
+  color: #222;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  /*line-height: 25px;*/
+
+  /* line-height: 25px; */
 }
 
 .we-serve {
@@ -464,17 +466,17 @@ font-size: 18px;
   text-align: center;
   position: relative;
   left: 48%;
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
 }
 
 .section4 h4 {
   text-align: center;
   width: 70%;
-  font-family: 'ITC Avant Garde Gothic Std';
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  color: #222222;
+  color: #222;
 }
 
 .world-class {
@@ -523,115 +525,116 @@ font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
- .sub-container {
-   display: flex;
-   flex-direction: column;
-   overflow-x: hidden;
- }
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
 
- .mini {
-  width: 100%;
-  text-align: center;
- }
+  .mini {
+    width: 100%;
+    text-align: center;
+  }
 
- .sub-section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
- }
+  .sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 
- .heading h3 {
-  font-size: 50px;
- }
+  .heading h3 {
+    font-size: 50px;
+  }
 
- .heading img {
-  height: 30px;
-  margin-top: 20px;
-  margin-left: 15px;
- }
+  .heading img {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
 
- .sub-title {
-  font-size: 30px;
-  width: 100%;
- }
+  .sub-title {
+    font-size: 30px;
+    width: 100%;
+  }
 
- .center-image {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
- }
+  .center-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
- .background-image {
-  font-size: 18px;
-  line-height: 50px;
-  /* width: 100%; */
-  height: 40vh;
- }
+  .background-image {
+    font-size: 18px;
+    line-height: 50px;
 
- .sub-container p {
-  width: 100%;
-  text-align: center;
- }
+    /* width: 100%; */
+    height: 40vh;
+  }
 
- .large-industry {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
- }
+  .sub-container p {
+    width: 100%;
+    text-align: center;
+  }
 
- .sub-world {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
- }
+  .large-industry {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
- .inner-container {
-  text-align: center;
- }
+  .sub-world {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
- .we-serve h3 {
-  /* border: 2px solid red; */
-  /* width: 100%; */
- }
+  .inner-container {
+    text-align: center;
+  }
 
- .we-serve {
-  width: 100%;
- }
+  .we-serve h3 {
+    /* border: 2px solid red; */
 
- .sub-form {
-  display: none;
- }
+    /* width: 100%; */
+  }
 
- .form {
-  width: 100%;
- }
+  .we-serve {
+    width: 100%;
+  }
 
- .input-field {
-  width: 99%;
- }
+  .sub-form {
+    display: none;
+  }
 
- .text-area {
-  width: 99%;
- }
+  .form {
+    width: 100%;
+  }
 
- .footer-container {
-  display: flex;
-  flex-direction: column;
- }
+  .input-field {
+    width: 99%;
+  }
 
- .about-container {
-  width: 100%;
- }
+  .text-area {
+    width: 99%;
+  }
 
- .industry {
-  width: 100%;
-  text-align: center;
- }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
 
- .social-media {
-  width: 100%;
-  text-align: center;
- }
+  .about-container {
+    width: 100%;
+  }
 
+  .industry {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-media {
+    width: 100%;
+    text-align: center;
+  }
 }
