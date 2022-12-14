@@ -43,7 +43,7 @@ Install your favorite Text Editor
 
 - GitHub: [@bigmosi](https://github.com/bigmosi/)
 - Twitter: [@kinyera_amos](https://twitter.com/kinyera_amos)
-- LinkedIn: [kinyera-amos-026062218](https://linkedin.com/in/kinyera-amos-026062218)
+- LinkedIn: [kinyera-amos](https://linkedin.com/in/kinyera-amos-026062218)
 
 ## 🤝 Contributing
 
