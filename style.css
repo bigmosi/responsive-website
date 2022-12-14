@@ -29,7 +29,7 @@ body {
   background-image: url("/images/backimage.png");
   background-repeat: no-repeat;
 
-  /* height: 500px; */
+   height: 500px;
   width: 90%;
   color: #fff;
   font-family: 'ITC Avant Garde Gothic Std', sans-serif;
@@ -563,6 +563,12 @@ h2 {
   right: 45px;
   font-size: 60px;
 }
+
+.error-text {
+  color: deeppink;
+  font-size: 18px;
+}
+
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}

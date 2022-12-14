@@ -33,7 +33,7 @@
             <ul class="list1">
                 <li><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> </li>
                 <li class="list list3">RP ALL <img src="/images/Vector (5).svg" />YS</li>
-                <li class="get-list list3">Get in Touch <img src="/images/Vector2.svg" /></li>
+                <li class="get-list list3"><a href="#">Get in Touch <img src="/images/Vector2.svg" /></a></li>
             </ul>
         </nav>
     </header>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
                 <div class="industry-sub">
-                    <img src="/images/Vector (8).svg">
+                    <img src="/images/1188978 1.svg">
                     <div>
                         <h4>Fertilizer Industry</h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div class="industry-sub">
-                    <img src="/images/Vector (6).svg">
+                    <img src="/images/Vector (14).svg">
                     <div>
                         <h4> Power Industry</h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
@@ -190,36 +190,42 @@
 
      <div class="bottom-container">
         <div class="form">
-            <form class="main-form">
+            <form class="main-form" action="https://formspree.io/f/mnqwdwzl" method="POST">
                 <div class="form-container">
                     <h2 class="form-title">Get in touch</h2>
                     <div class="hr"></div>
                     <div class="input-icons">
+                        <label for="fullname"></label>
                         <i class="fa fa-user icon">
                       </i>
                         <input class="input-field"
                                type="text"
-                               placeholder="Full Name">
+                               placeholder="Full Name" name="fullname" id="fullname" required>
                     </div>
 
                     <div class="input-icons">
+                        <label for="email"></label>
                         <i class="fa fa-envelope icon">
                       </i>
                         <input class="input-field"
-                               type="text"
-                               placeholder="Email">
+                               type="email"
+                               placeholder="Email" name="email" id="email" required>
                     </div>
 
                     <div class="input-icons">
                         <i class="fa fa-phone icon"></i>
                         <input class="input-field"
                                type="phone"
-                               placeholder="Phone">
+                               placeholder="Phone" required>
                     </div>
 
                     <div class="input-icons">
+                        <label for="textarea"></label>
                         <i class="fa fa-comment icons"></i>
-                        <textarea class="text-area" placeholder="Message" cols="30" rows="10" > </textarea>
+                        <textarea class="text-area" placeholder="Message" cols="30" rows="10" name="description" maxlength="500" required > </textarea>
+                    </div>
+                    <div class="error-message">
+                        <small class="error-text" aria-live="polite"></small>
                     </div>
                     <input type="submit" value="Submit" class="submit-button">
                 </div>
@@ -289,7 +295,7 @@
                 </div>
             </div>
         </footer>
-    </main>
+    </main>    
     <script src="script.js"></script>
 </body>
 </html>
