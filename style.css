@@ -129,8 +129,12 @@ h2 {
   overflow-y: hidden;
 }
 
+.procurement {
+  display: flex;
+  justify-content: center;
+}
+
 .sub-title {
-  position: relative;
 
   /* left: 15%; */
   margin-top: 50px;
@@ -138,7 +142,7 @@ h2 {
   font-size: 70px;
   color: #222;
   width: 60%;
-  text-align: center;
+  text-align: left;
 }
 
 .center-image {
@@ -729,6 +733,7 @@ h2 {
   .sub-title {
     font-size: 30px;
     width: 100%;
+    text-align: center;
   }
 
   .center-image {
@@ -815,5 +820,10 @@ h2 {
 
   .list3 {
     display: none;
+  }
+
+  .sub-image {
+    border: 2px solid red;
+    text-align: center;
   }
 }
