@@ -74,6 +74,8 @@ body {
   font-weight: 300;
   font-size: 18px;
   margin-top: 60px;
+  line-height: 29px;
+  font-family: 'ITC Avant Garde Gothic Std';
 }
 
 h2 {
@@ -446,6 +448,13 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+}
+
+.industry-sub h4 {
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: ITC Avant Garde Gothic Std;
 }
 
 .industry-sub p {
